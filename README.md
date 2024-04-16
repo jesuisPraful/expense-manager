@@ -35,14 +35,17 @@ This is a simple expense tracker application built using the MERN stack. It allo
 5. Set up environment variables:
    - Create a `.env` file in the root directory.
    - Add the following environment variables:
-     ```PORT=5000
+
+     ```
+        PORT=5000
         MONGODB_URI=your_mongodb_uri
-        JWT_SECRET=your_jwt_secret```
+        JWT_SECRET=your_jwt_secret
+     ```
 
 6. Start the development server:
    ```npm start```
    
-7. Navigate to `http://localhost:3000` in your browser to view the application.
+7. Navigate to `http://localhost:5000` in your browser to view the application.
 
 ## Contributing
 
